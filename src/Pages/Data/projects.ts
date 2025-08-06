@@ -1,17 +1,66 @@
+import rayonPants from "../../Images/rayon_pants.jpeg";
+
 interface Project {
-    id: number,
+  id: number;
   title: string;
   description: string;
+  image: string;
+  alt: string;
 }
 
 const projects: Project[] = [
-  { id: 1, title: "Example 01", description: "Example Description 01" },
+  {
+    id: 1,
+    title: "iste natus error",
+    description:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+    image: rayonPants,
+    alt: "example",
+  },
 
-  { id: 2, title: "Example 02", description: "Example Description 02" },
+  {
+    id: 2,
+    title: "sit voluptatem accusantium",
+    description:
+      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+    image: rayonPants,
+    alt: "example",
+  },
 
-  { id: 3, title: "Example 03", description: "Example Description 03" },
+  {
+    id: 3,
+    title: "doloremque laudantium",
+    description:
+      "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    image: rayonPants,
+    alt: "example",
+  },
 
-  { id: 4, title: "Example 04", description: "Example Description 04" },
+  {
+    id: 4,
+    title: "vitae dicta sunt",
+    description:
+      "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+    image: rayonPants,
+    alt: "example",
+  },
+  {
+    id: 5,
+    title: "aliquam quaerat voluptatem",
+    description:
+      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
+    image: rayonPants,
+    alt: "example",
+  },
+
+  {
+    id: 6,
+    title: "odit aut fugit",
+    description:
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    image: rayonPants,
+    alt: "example",
+  },
 ];
 
 export default projects;
