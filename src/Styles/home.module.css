@@ -21,6 +21,19 @@
     color: var(--accent-bg-color);
   }
 
+  .popupOverlay {
+    z-index: 1;
+    position: fixed;
+    left: 10%;
+    top: 10%;
+    width: 80vw;
+    border: 1px solid var(--primary-bg-color);
+    border-radius: 1em;
+    background-color: white;
+    padding: 10px;
+    height: 80vh;
+  }
+
   .sidebar {
     background-color: var(--secondary-bg-color);
     position: absolute;
@@ -30,6 +43,18 @@
     width: 20%;
     padding: 0 10px;
     color: var(--primary-text-color);
+
+    @media (min-width: 300px) and (max-width: 829px) {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: calc(100% - 20px);
+      height: auto;
+      border-bottom: 1px solid var(--secondary-bg-color);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding: 10px;
+    }
 
     .subtitle {
       font-family: "DM Serif Text", serif;
@@ -52,6 +77,16 @@
     width: calc(80% - 20px);
     text-align: center;
 
+    @media (min-width: 300px) and (max-width: 829px) {
+      overflow: none;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: calc(100% - 20px);
+      height: auto;
+      padding: 10px;
+    }
+
     .projectGrid {
       display: flex;
       flex-wrap: wrap;
@@ -62,7 +97,7 @@
       border: 1px solid white;
       border-radius: 5px;
       margin: 10px;
-      max-width: 300px;
+      max-width: 317px;
 
       .fullscreenBtn {
         background-color: var(--primary-bg-color);

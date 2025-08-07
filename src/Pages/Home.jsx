@@ -2,15 +2,18 @@ import projects from "./Data/projects.ts";
 import styles from "../Styles/home.module.css";
 import fullscreen from "../Images/fullscreen.svg";
 import { useNavigate } from "react-router-dom";
+import React, { useState } from "react";
 
 export default function Home() {
+  const [showPopup, setShowPopup] = useState(false);
   const navigate = useNavigate();
   const navigateToCoding = () => {
     navigate("/coding");
   };
 
   const displayProjectPopup = (projectId) => {
-    alert(`Displaying project: ${projectId}`);
+    setShowPopup(true);
+    console.log(`Displaying project: ${projectId}`);
   };
 
   const formatProject = (project) => {
@@ -46,6 +49,15 @@ export default function Home() {
 
   return (
     <div className={styles.homeContainer}>
+      {showPopup && (
+        <div className={styles.popupOverlay}>
+          <div>
+            <h2>My Popup Content</h2>
+            <p>This is the content of the popup.</p>
+            <button onClick={() => setShowPopup(false)}>Close Popup</button>
+          </div>
+        </div>
+      )}
       <div className={styles.sidebar}>
         <h1>
           Autumn's <br></br>Rag Land
