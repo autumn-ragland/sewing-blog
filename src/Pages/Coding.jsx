@@ -12,6 +12,9 @@ export default function Coding() {
   const navigateToLinkedIn = (link) => {
     alert(`Navigating to LinkedIn for : ${link}`);
   };
+  const navigateToPersonalLinkedIn = () => {
+    alert(`Navigating to Personal LinkedIn`);
+  };
   const downloadResume = () => {
     alert(`Downloading Resume`);
   };
@@ -54,19 +57,12 @@ export default function Coding() {
           frontend engineer <br></br>open to work
         </p>
         <p>
-          Impact-driven frontend engineer with 4+ years of experience building
-          and testing scalable web applications using React and Vue. Efficiently
-          delivering frontend initiatives by embracing close collaboration with
-          QA, product, and engineering teams in agile environments. Passionate
-          about creating accessible, delightful interfaces that drive user
-          satisfaction and engagement.
-        </p>
-        <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className={styles.buttonGroup}>
           <button onClick={navigateToHobby}>My Hobby</button>
+          <button onClick={navigateToPersonalLinkedIn}>LinkedIn</button>
           <button
             onClick={downloadResume}
             className={styles.resumeBtn}
