@@ -3,9 +3,11 @@ import styles from "../Styles/home.module.css";
 import fullscreen from "../Images/fullscreen.svg";
 import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
+import Project from "./Components/Project.jsx";
 
 export default function Home() {
   const [showPopup, setShowPopup] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
   const navigate = useNavigate();
   const navigateToCoding = () => {
     navigate("/coding");
@@ -13,7 +15,7 @@ export default function Home() {
 
   const displayProjectPopup = (projectId) => {
     setShowPopup(true);
-    console.log(`Displaying project: ${projectId}`);
+    setSelectedProject(projectId);
   };
 
   const formatProject = (project) => {
@@ -52,9 +54,10 @@ export default function Home() {
       {showPopup && (
         <div className={styles.popupOverlay}>
           <div>
-            <h2>My Popup Content</h2>
-            <p>This is the content of the popup.</p>
-            <button onClick={() => setShowPopup(false)}>Close Popup</button>
+            <Project
+              projectId={selectedProject}
+              onClose={() => setShowPopup(false)}
+            />
           </div>
         </div>
       )}

@@ -1,9 +1,48 @@
-const componentTitle = "Project"
+import exit from "../../Images/exit.svg";
+import projects from "../Data/projects.ts";
+import styles from "./project.module.css";
 
-export default function Project() {
+export default function Project({ projectId, onClose }) {
+  const selectedProject = projects.find((project) => project.id === projectId);
   return (
-    <div>
-        {componentTitle}
+    <div className={styles.popup}>
+      <div className={styles.header}>
+        <div>{selectedProject.title}</div>
+        <button
+          className={styles.closeBtn}
+          onClick={onClose}
+        >
+          <img
+            src={exit}
+            alt="close pop up"
+          />
+        </button>
+      </div>
+      <div className={styles.content}>
+        <div className={styles.imageContainer}>
+          <div className={styles.secondaryImages}>
+            <img
+              src={selectedProject.image}
+              alt={selectedProject.alt}
+            />
+            <img
+              src={selectedProject.image}
+              alt={selectedProject.alt}
+            />
+            <img
+              src={selectedProject.image}
+              alt={selectedProject.alt}
+            />
+          </div>
+          <div className={styles.primaryImage}>
+            <img
+              src={selectedProject.image}
+              alt={selectedProject.alt}
+            />
+          </div>
+        </div>
+        <div>{selectedProject.description}</div>
+      </div>
     </div>
-  )
+  );
 }

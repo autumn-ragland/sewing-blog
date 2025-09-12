@@ -10,10 +10,13 @@ const jobs: Job[] = [
   {
     id: 0,
     title: "This Project!",
-    dates: "August 2025",
-    link: "/0",
+    dates: "August 2025 - Present",
+    link: "https://github.com/autumn-ragland/sewing-blog",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     ],
   },
   {
@@ -23,7 +26,7 @@ const jobs: Job[] = [
     link: "/1",
     description: [
       "Improve user engagement on various client sites leveraging Optimizely injected typescript.",
-      "Engagement with in house LLM to generate experiments and troubleshoot improvements to beta AI implementation.",
+      "Collaborated with in-house LLM to generate A/B test variants and troubleshoot AI-driven user experience improvements.",
     ],
   },
 
@@ -59,7 +62,7 @@ const jobs: Job[] = [
     dates: "January 2021 - February 2025",
     link: "/4",
     description: [
-      "Create and update Vue components, leveraging TypeScript and SCSS to address various end-user needs",
+      "Built responsive, accessible Vue components from Figma wireframes, ensuring WCAG AA compliance, leveraging TypeScript and SCSS.",
       "Implement data driven development and experimentation by creating and supporting Optimizely A/B tests",
       "Redesigned static widget for external consumption as an extensible Vue application",
     ],
