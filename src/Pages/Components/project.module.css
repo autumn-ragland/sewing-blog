@@ -1,0 +1,44 @@
+.popup {
+  .closeBtn {
+    background-color: white;
+    border: 0;
+    width: auto;
+  }
+
+  .closeBtn:hover {
+    background-color: white;
+    border: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "DM Serif Text", serif;
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  .content {
+    display: flex;
+    img {
+      max-width: 200px !important;
+    }
+
+    @media (min-width: 300px) and (max-width: 829px) {
+      flex-wrap: wrap;
+    }
+  }
+
+  .imageContainer {
+    display: flex;
+
+    .secondaryImages {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      img {
+        max-width: 100px !important;
+      }
+    }
+  }
+}

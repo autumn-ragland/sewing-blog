@@ -24,14 +24,23 @@
   .popupOverlay {
     z-index: 1;
     position: fixed;
-    left: 10%;
-    top: 10%;
-    width: 80vw;
+    left: 25%;
+    top: 25%;
+    width: 50vw;
     border: 1px solid var(--primary-bg-color);
     border-radius: 1em;
     background-color: white;
     padding: 10px;
-    height: 80vh;
+    height: 50vh;
+
+    @media (min-width: 300px) and (max-width: 829px) {
+      left: 0;
+      right: 0;
+      top: 0;
+      width: auto;
+      height: auto;
+      margin: 20px;
+    }
   }
 
   .sidebar {
