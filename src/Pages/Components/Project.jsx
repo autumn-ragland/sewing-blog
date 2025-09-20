@@ -21,18 +21,14 @@ export default function Project({ projectId, onClose }) {
       <div className={styles.content}>
         <div className={styles.imageContainer}>
           <div className={styles.secondaryImages}>
-            <img
-              src={selectedProject.image}
-              alt={selectedProject.alt}
-            />
-            <img
-              src={selectedProject.image}
-              alt={selectedProject.alt}
-            />
-            <img
-              src={selectedProject.image}
-              alt={selectedProject.alt}
-            />
+            {selectedProject.detail &&
+              selectedProject.detail.map((detailImg, index) => (
+                <img
+                  key={index}
+                  src={detailImg.img}
+                  alt={detailImg.alt}
+                />
+              ))}
           </div>
           <div className={styles.primaryImage}>
             <img
