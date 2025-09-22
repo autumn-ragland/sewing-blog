@@ -1,28 +1,3 @@
-import summerShimmerTopFront from "../../Images/summerShimmerTop/front.png";
-import summerShimmerTopBack from "../../Images/summerShimmerTop/back.png";
-import summerShimmerTopDetail01 from "../../Images/summerShimmerTop/detail01.png";
-import summerShimmerTopDetail02 from "../../Images/summerShimmerTop/detail02.png";
-import dreamPantsFront from "../../Images/dreamPants/front.png";
-import dreamPantsBack from "../../Images/dreamPants/back.png";
-import dreamPantsDetail01 from "../../Images/dreamPants/detail01.png";
-import dreamPantsDetail02 from "../../Images/dreamPants/detail02.png";
-import watermelonTankFront from "../../Images/watermelonTank/front.png";
-import watermelonTankBack from "../../Images/watermelonTank/back.png";
-import watermelonTankDetail01 from "../../Images/watermelonTank/detail01.png";
-import watermelonTankDetail02 from "../../Images/watermelonTank/detail02.png";
-import fittedMossTopFront from "../../Images/fittedMossTop/front.png";
-import fittedMossTopBack from "../../Images/fittedMossTop/back.png";
-import fittedMossTopDetail01 from "../../Images/fittedMossTop/detail01.png";
-import fittedMossTopDetail02 from "../../Images/fittedMossTop/detail02.png";
-import everydayDenimTopFront from "../../Images/everydayDenimTop/front.png";
-import everydayDenimTopBack from "../../Images/everydayDenimTop/back.png";
-import everydayDenimTopDetail01 from "../../Images/everydayDenimTop/detail01.png";
-import everydayDenimTopDetail02 from "../../Images/everydayDenimTop/detail02.png";
-import perfectWalletFront from "../../Images/perfectWallet/front.png";
-import perfectWalletBack from "../../Images/perfectWallet/back.png";
-import perfectWalletDetail01 from "../../Images/perfectWallet/detail01.png";
-import perfectWalletDetail02 from "../../Images/perfectWallet/detail02.png";
-
 interface ProjectDetail {
   img: string;
   alt: string;
@@ -42,11 +17,21 @@ const projects: Project[] = [
     title: "Dream Pants",
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
-    image: dreamPantsFront,
+    image:
+      "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/dreamPants/front.png",
     detail: [
-      { img: dreamPantsBack, alt: "back" },
-      { img: dreamPantsDetail02, alt: "detail" },
-      { img: dreamPantsDetail01, alt: "detail" },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/dreamPants/back.png",
+        alt: "back",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/dreamPants/detail01.png",
+        alt: "detail",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/dreamPants/detail02.png",
+        alt: "detail",
+      },
     ],
     alt: "example",
   },
@@ -56,11 +41,21 @@ const projects: Project[] = [
     title: "Watermelon Tank",
     description:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    image: watermelonTankFront,
+    image:
+      "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/watermelonTank/front.png",
     detail: [
-      { img: watermelonTankBack, alt: "back" },
-      { img: watermelonTankDetail02, alt: "detail" },
-      { img: watermelonTankDetail01, alt: "detail" },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/watermelonTank/back.png",
+        alt: "back",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/watermelonTank/detail02.png",
+        alt: "detail",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/watermelonTank/detail01.png",
+        alt: "detail",
+      },
     ],
     alt: "example",
   },
@@ -70,11 +65,21 @@ const projects: Project[] = [
     title: "Fitted Moss Top",
     description:
       "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-    image: fittedMossTopFront,
+    image:
+      "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/fittedMossTop/front.png",
     detail: [
-      { img: fittedMossTopBack, alt: "back" },
-      { img: fittedMossTopDetail02, alt: "detail" },
-      { img: fittedMossTopDetail01, alt: "detail" },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/fittedMossTop/back.png",
+        alt: "back",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/fittedMossTop/detail02.png",
+        alt: "detail",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/fittedMossTop/detail01.png",
+        alt: "detail",
+      },
     ],
     alt: "example",
   },
@@ -84,11 +89,21 @@ const projects: Project[] = [
     title: "Everyday Denim Top",
     description:
       "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
-    image: everydayDenimTopFront,
+    image:
+      "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/everydayDenimTop/front.png",
     detail: [
-      { img: everydayDenimTopBack, alt: "back" },
-      { img: everydayDenimTopDetail02, alt: "detail" },
-      { img: everydayDenimTopDetail01, alt: "detail" },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/everydayDenimTop/back.png",
+        alt: "back",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/everydayDenimTop/detail02.png",
+        alt: "detail",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/everydayDenimTop/detail01.png",
+        alt: "detail",
+      },
     ],
     alt: "example",
   },
@@ -97,11 +112,21 @@ const projects: Project[] = [
     title: "Summer Shimmer Top",
     description:
       "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
-    image: summerShimmerTopFront,
+    image:
+      "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/summerShimmerTop/front.png",
     detail: [
-      { img: summerShimmerTopBack, alt: "back" },
-      { img: summerShimmerTopDetail01, alt: "detail" },
-      { img: summerShimmerTopDetail02, alt: "detail" },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/summerShimmerTop/back.png",
+        alt: "back",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/summerShimmerTop/detail01.png",
+        alt: "detail",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/summerShimmerTop/detail02.png",
+        alt: "detail",
+      },
     ],
     alt: "example",
   },
@@ -111,11 +136,21 @@ const projects: Project[] = [
     title: "Perfect Wallet",
     description:
       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image: perfectWalletFront,
+    image:
+      "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/perfectWallet/front.png",
     detail: [
-      { img: perfectWalletBack, alt: "back" },
-      { img: perfectWalletDetail01, alt: "detail" },
-      { img: perfectWalletDetail02, alt: "detail" },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/perfectWallet/back.png",
+        alt: "back",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/perfectWallet/detail01.png",
+        alt: "detail",
+      },
+      {
+        img: "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/perfectWallet/detail02.png",
+        alt: "detail",
+      },
     ],
     alt: "example",
   },
