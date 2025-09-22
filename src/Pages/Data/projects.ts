@@ -7,6 +7,10 @@ import dreamPantsFront from "../../Images/dreamPants/front.png";
 import dreamPantsBack from "../../Images/dreamPants/back.png";
 import dreamPantsDetail01 from "../../Images/dreamPants/detail01.png";
 import dreamPantsDetail02 from "../../Images/dreamPants/detail02.png";
+import watermelonTankFront from "../../Images/watermelonTank/front.png";
+import watermelonTankBack from "../../Images/watermelonTank/back.png";
+import watermelonTankDetail01 from "../../Images/watermelonTank/detail01.png";
+import watermelonTankDetail02 from "../../Images/watermelonTank/detail02.png";
 
 interface ProjectDetail {
   img: string;
@@ -41,7 +45,12 @@ const projects: Project[] = [
     title: "Watermelon Tank",
     description:
       "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-    image: rayon_pants,
+    image: watermelonTankFront,
+    detail: [
+      { img: watermelonTankBack, alt: "back" },
+      { img: watermelonTankDetail02, alt: "detail" },
+      { img: watermelonTankDetail01, alt: "detail" },
+    ],
     alt: "example",
   },
 
