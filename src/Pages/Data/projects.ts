@@ -11,6 +11,10 @@ import watermelonTankFront from "../../Images/watermelonTank/front.png";
 import watermelonTankBack from "../../Images/watermelonTank/back.png";
 import watermelonTankDetail01 from "../../Images/watermelonTank/detail01.png";
 import watermelonTankDetail02 from "../../Images/watermelonTank/detail02.png";
+import fittedMossTopFront from "../../Images/fittedMossTop/front.png";
+import fittedMossTopBack from "../../Images/fittedMossTop/back.png";
+import fittedMossTopDetail01 from "../../Images/fittedMossTop/detail01.png";
+import fittedMossTopDetail02 from "../../Images/fittedMossTop/detail02.png";
 
 interface ProjectDetail {
   img: string;
@@ -59,7 +63,12 @@ const projects: Project[] = [
     title: "Fitted Moss Top",
     description:
       "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
-    image: rayon_pants,
+    image: fittedMossTopFront,
+    detail: [
+      { img: fittedMossTopBack, alt: "back" },
+      { img: fittedMossTopDetail02, alt: "detail" },
+      { img: fittedMossTopDetail01, alt: "detail" },
+    ],
     alt: "example",
   },
 
