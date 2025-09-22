@@ -15,6 +15,10 @@ import fittedMossTopFront from "../../Images/fittedMossTop/front.png";
 import fittedMossTopBack from "../../Images/fittedMossTop/back.png";
 import fittedMossTopDetail01 from "../../Images/fittedMossTop/detail01.png";
 import fittedMossTopDetail02 from "../../Images/fittedMossTop/detail02.png";
+import everydayDenimTopFront from "../../Images/everydayDenimTop/front.png";
+import everydayDenimTopBack from "../../Images/everydayDenimTop/back.png";
+import everydayDenimTopDetail01 from "../../Images/everydayDenimTop/detail01.png";
+import everydayDenimTopDetail02 from "../../Images/everydayDenimTop/detail02.png";
 
 interface ProjectDetail {
   img: string;
@@ -77,7 +81,12 @@ const projects: Project[] = [
     title: "Everyday Denim Top",
     description:
       "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
-    image: rayon_pants,
+    image: everydayDenimTopFront,
+    detail: [
+      { img: everydayDenimTopBack, alt: "back" },
+      { img: everydayDenimTopDetail02, alt: "detail" },
+      { img: everydayDenimTopDetail01, alt: "detail" },
+    ],
     alt: "example",
   },
   {
