@@ -19,6 +19,10 @@ import everydayDenimTopFront from "../../Images/everydayDenimTop/front.png";
 import everydayDenimTopBack from "../../Images/everydayDenimTop/back.png";
 import everydayDenimTopDetail01 from "../../Images/everydayDenimTop/detail01.png";
 import everydayDenimTopDetail02 from "../../Images/everydayDenimTop/detail02.png";
+import perfectWalletFront from "../../Images/perfectWallet/front.png";
+import perfectWalletBack from "../../Images/perfectWallet/back.png";
+import perfectWalletDetail01 from "../../Images/perfectWallet/detail01.png";
+import perfectWalletDetail02 from "../../Images/perfectWallet/detail02.png";
 
 interface ProjectDetail {
   img: string;
@@ -108,7 +112,12 @@ const projects: Project[] = [
     title: "Perfect Wallet",
     description:
       "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    image: rayon_pants,
+    image: perfectWalletFront,
+    detail: [
+      { img: perfectWalletBack, alt: "back" },
+      { img: perfectWalletDetail01, alt: "detail" },
+      { img: perfectWalletDetail02, alt: "detail" },
+    ],
     alt: "example",
   },
 ];
