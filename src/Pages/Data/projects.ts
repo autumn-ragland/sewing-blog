@@ -1,4 +1,3 @@
-import rayon_pants from "../../Images/rayon_pants.jpeg";
 import summerShimmerTopFront from "../../Images/summerShimmerTop/front.png";
 import summerShimmerTopBack from "../../Images/summerShimmerTop/back.png";
 import summerShimmerTopDetail01 from "../../Images/summerShimmerTop/detail01.png";
