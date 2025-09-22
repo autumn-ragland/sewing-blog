@@ -3,6 +3,10 @@ import summerShimmerTopFront from "../../Images/summerShimmerTop/front.png";
 import summerShimmerTopBack from "../../Images/summerShimmerTop/back.png";
 import summerShimmerTopDetail01 from "../../Images/summerShimmerTop/detail01.png";
 import summerShimmerTopDetail02 from "../../Images/summerShimmerTop/detail02.png";
+import dreamPantsFront from "../../Images/dreamPants/front.png";
+import dreamPantsBack from "../../Images/dreamPants/back.png";
+import dreamPantsDetail01 from "../../Images/dreamPants/detail01.png";
+import dreamPantsDetail02 from "../../Images/dreamPants/detail02.png";
 
 interface ProjectDetail {
   img: string;
@@ -23,7 +27,12 @@ const projects: Project[] = [
     title: "Dream Pants",
     description:
       "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
-    image: rayon_pants,
+    image: dreamPantsFront,
+    detail: [
+      { img: dreamPantsBack, alt: "back" },
+      { img: dreamPantsDetail02, alt: "detail" },
+      { img: dreamPantsDetail01, alt: "detail" },
+    ],
     alt: "example",
   },
 
