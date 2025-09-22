@@ -1,8 +1,8 @@
 import rayon_pants from "../../Images/rayon_pants.jpeg";
-import green_top_front from "../../Images/greenTop/green_top_front.png";
-import green_top_back from "../../Images/greenTop/green_top_back.png";
-import green_top_detail_01 from "../../Images/greenTop/green_top_detail_01.png";
-import green_top_detail_02 from "../../Images/greenTop/green_top_detail_02.png";
+import summerShimmerTopFront from "../../Images/summerShimmerTop/front.png";
+import summerShimmerTopBack from "../../Images/summerShimmerTop/back.png";
+import summerShimmerTopDetail01 from "../../Images/summerShimmerTop/detail01.png";
+import summerShimmerTopDetail02 from "../../Images/summerShimmerTop/detail02.png";
 
 interface ProjectDetail {
   img: string;
@@ -58,11 +58,11 @@ const projects: Project[] = [
     title: "Summer Shimmer Top",
     description:
       "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
-    image: green_top_front,
+    image: summerShimmerTopFront,
     detail: [
-      { img: green_top_back, alt: "back" },
-      { img: green_top_detail_01, alt: "detail" },
-      { img: green_top_detail_02, alt: "detail" },
+      { img: summerShimmerTopBack, alt: "back" },
+      { img: summerShimmerTopDetail01, alt: "detail" },
+      { img: summerShimmerTopDetail02, alt: "detail" },
     ],
     alt: "example",
   },
