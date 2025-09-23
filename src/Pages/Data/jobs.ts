@@ -23,7 +23,7 @@ const jobs: Job[] = [
     id: 1,
     title: "Cro Metrics Senior Frontend Engineer",
     dates: "April 2025 - July 2025",
-    link: "/1",
+    link: "https://www.linkedin.com/company/crometrics",
     description: [
       "Improve user engagement on various client sites leveraging Optimizely injected typescript.",
       "Collaborated with in-house LLM to generate A/B test variants and troubleshoot AI-driven user experience improvements.",
@@ -34,7 +34,7 @@ const jobs: Job[] = [
     id: 2,
     title: "Zip Co Senior Software Engineer",
     dates: "January 2021 - February 2025",
-    link: "/2",
+    link: "https://www.linkedin.com/company/zip-co-limited",
     description: [
       "Rewrote Zip’s primary Vue web payment application in React/Next.JS for maintainability, leveraging Jest for testing and Redux for state management to ensure a modern, supported application",
       "Manage weekly releases of three customer-facing products, communicating with quality assurance, engineers, and technical leads to enable smooth updates to production code",
@@ -47,7 +47,7 @@ const jobs: Job[] = [
     id: 3,
     title: "Zip Co Software Engineer II",
     dates: "January 2021 - February 2025",
-    link: "/3",
+    link: "https://www.linkedin.com/company/zip-co-limited",
     description: [
       "Leverage Vue along with Jest and Cypress for testing, and VueX for state management to improve a global checkout experience for customers seeking financial flexibility",
       "Spearhead Smartling integration to enable internationalization across the checkout experience",
@@ -60,7 +60,7 @@ const jobs: Job[] = [
     id: 4,
     title: "Zip Co Software Engineer I",
     dates: "January 2021 - February 2025",
-    link: "/4",
+    link: "https://www.linkedin.com/company/zip-co-limited",
     description: [
       "Built responsive, accessible Vue components from Figma wireframes, ensuring WCAG AA compliance, leveraging TypeScript and SCSS.",
       "Implement data driven development and experimentation by creating and supporting Optimizely A/B tests",
@@ -72,21 +72,10 @@ const jobs: Job[] = [
     id: 5,
     title: "CodeCrew Code School Instructor",
     dates: "January 2020 - January 2021",
-    link: "/5",
+    link: "https://www.linkedin.com/school/codecrew-code-school",
     description: [
       "Create and deliver lesson plans for a continually evolving web development curriculum across three programs within the CodeSchool including a MERN(MongoDB, Express, React, and NodeJS), a .NET(C#, Razor CSHTML Templates, SQL), and web basic (HTML/JS/CSS) cohort",
       "Develop well-documented, full-stack web applications for instructional purposes utilizing technologies outlined in the curriculum for the MERN and .NET cohorts",
-    ],
-  },
-
-  {
-    id: 6,
-    title: "International Paper Development Intern",
-    dates: "September 2019 - December 2019",
-    link: "/6",
-    description: [
-      "Contribute to the development of a web application designed to replace an outdated interface for product management primarily using Angular 6, TypeScript, and C#",
-      "Utilize Azure DevOps for source control, continuous integration, and communication of tasks between team members.",
     ],
   },
 ];

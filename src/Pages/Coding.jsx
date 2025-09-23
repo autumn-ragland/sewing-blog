@@ -2,21 +2,23 @@ import jobs from "./Data/jobs.ts";
 import styles from "../Styles/coding.module.css";
 import { useNavigate } from "react-router-dom";
 import link from "../Images/link.svg";
-import download from "../Images/download.svg";
 
 export default function Coding() {
+  const personalSummary01 =
+    "Impact-driven frontend engineer with 4+ years of experience building and testing scalable web applications using React and Vue.";
+  const personalSummary02 =
+    "Efficiently delivering frontend initiatives by embracing close collaboration with QA, product, and engineering teams in agile environments.";
+  const personalSummary03 =
+    "Passionate about creating accessible, delightful interfaces that improve user satisfaction and engagement.";
   const navigate = useNavigate();
   const navigateToHobby = () => {
     navigate("/");
   };
   const navigateToLinkedIn = (link) => {
-    alert(`Navigating to LinkedIn for : ${link}`);
+    window.open(link, "_blank");
   };
   const navigateToPersonalLinkedIn = () => {
-    alert(`Navigating to Personal LinkedIn`);
-  };
-  const downloadResume = () => {
-    alert(`Downloading Resume`);
+    window.open("https://www.linkedin.com/in/autumn-ragland/", "_blank");
   };
   const formatJob = (job) => {
     return (
@@ -54,29 +56,16 @@ export default function Coding() {
           Autumn <br></br>Ragland
         </h1>
         <p className={styles.subtitle}>
-          frontend engineer <br></br>open to work
+          frontend engineer <br />
+          open to work
         </p>
         <p>
-          Impact-driven frontend engineer with 4+ years of experience building
-          and testing scalable web applications using React and Vue. Efficiently
-          delivering frontend initiatives by embracing close collaboration with
-          QA, product, and engineering teams in agile environments. Passionate
-          about creating accessible, delightful interfaces that improve user
-          satisfaction and engagement.
+          {personalSummary01} <br /> {personalSummary02}
+          <br /> {personalSummary03}
         </p>
         <div className={styles.buttonGroup}>
           <button onClick={navigateToHobby}>My Hobby</button>
           <button onClick={navigateToPersonalLinkedIn}>LinkedIn</button>
-          <button
-            onClick={downloadResume}
-            className={styles.resumeBtn}
-          >
-            <span>Resume</span>
-            <img
-              src={download}
-              alt="download resume"
-            />
-          </button>
         </div>
       </div>
       <div className={styles.jobsContainer}>

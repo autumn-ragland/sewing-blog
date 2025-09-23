@@ -19,7 +19,6 @@ export default function Project({ projectId, onClose }) {
           />
         </button>
       </div>
-      {/* <div className={styles.content}> */}
       <div className={styles.imageContainer}>
         <div className={styles.secondaryImages}>
           {selectedProject.detail.map((detailImg, index) => (
@@ -37,7 +36,6 @@ export default function Project({ projectId, onClose }) {
           />
         </div>
       </div>
-      {/* </div> */}
     </div>
   );
 }

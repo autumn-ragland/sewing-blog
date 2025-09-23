@@ -8,6 +8,12 @@ import Project from "./Components/Project.jsx";
 export default function Home() {
   const [showPopup, setShowPopup] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
+  const subtitle01 = "a record of secondhand fabric";
+  const subtitle02 = "finding new life";
+  const sidebarCopy01 =
+    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.";
+  const sidebarCopy02 =
+    "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.";
   const navigate = useNavigate();
   const navigateToCoding = () => {
     navigate("/coding");
@@ -56,16 +62,12 @@ export default function Home() {
           Autumn's <br></br>Rag Land
         </h1>
         <p className={styles.subtitle}>
-          a record of secondhand <br></br>fabric finding new life
+          {subtitle01}
+          <br />
+          {subtitle02}
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        <p>{sidebarCopy01}</p>
+        <p>{sidebarCopy02}</p>
         <button onClick={navigateToCoding}>My Day Job</button>
       </div>
       <div className={styles.projectContainer}>
