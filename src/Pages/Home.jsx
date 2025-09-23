@@ -51,16 +51,6 @@ export default function Home() {
 
   return (
     <div className={styles.homeContainer}>
-      {showPopup && (
-        <div className={styles.popupOverlay}>
-          <div>
-            <Project
-              projectId={selectedProject}
-              onClose={() => setShowPopup(false)}
-            />
-          </div>
-        </div>
-      )}
       <div className={styles.sidebar}>
         <h1>
           Autumn's <br></br>Rag Land
@@ -79,6 +69,16 @@ export default function Home() {
         <button onClick={navigateToCoding}>My Day Job</button>
       </div>
       <div className={styles.projectContainer}>
+        {showPopup && (
+          <div className={styles.popupOverlay}>
+            <div>
+              <Project
+                projectId={selectedProject}
+                onClose={() => setShowPopup(false)}
+              />
+            </div>
+          </div>
+        )}
         <div className={styles.projectGrid}>
           {projects.map((project) => formatProject(project))}
         </div>

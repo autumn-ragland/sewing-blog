@@ -1,12 +1,12 @@
 .popup {
   .closeBtn {
-    background-color: white;
+    background-color: var(--primary-bg-color);
     border: 0;
     width: auto;
   }
 
   .closeBtn:hover {
-    background-color: white;
+    background-color: var(--primary-bg-color);
     border: 0;
   }
 
@@ -18,24 +18,34 @@
     margin: 10px;
   }
 
-  .content {
+  /* .content {
     display: flex;
+
+    @media (min-width: 300px) and (max-width: 713px) {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  } */
+
+  .imageContainer {
+    background-color: white;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding-bottom: 10px;
     img {
       max-width: 200px !important;
     }
-
-    @media (min-width: 300px) and (max-width: 829px) {
-      flex-wrap: wrap;
-    }
-  }
-
-  .imageContainer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 
     .secondaryImages {
       display: flex;
-      flex-wrap: wrap;
       justify-content: space-evenly;
+      align-items: center;
+      gap: 10px;
+      flex-direction: column;
       img {
         max-width: 100px !important;
       }

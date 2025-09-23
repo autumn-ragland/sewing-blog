@@ -4,6 +4,7 @@ import styles from "./project.module.css";
 
 export default function Project({ projectId, onClose }) {
   const selectedProject = projects.find((project) => project.id === projectId);
+
   return (
     <div className={styles.popup}>
       <div className={styles.header}>
@@ -18,26 +19,25 @@ export default function Project({ projectId, onClose }) {
           />
         </button>
       </div>
-      <div className={styles.content}>
-        <div className={styles.imageContainer}>
-          <div className={styles.secondaryImages}>
-            {selectedProject.detail.map((detailImg, index) => (
-              <img
-                key={index}
-                src={detailImg.img}
-                alt={detailImg.alt}
-              />
-            ))}
-          </div>
-          <div className={styles.primaryImage}>
+      {/* <div className={styles.content}> */}
+      <div className={styles.imageContainer}>
+        <div className={styles.secondaryImages}>
+          {selectedProject.detail.map((detailImg, index) => (
             <img
-              src={selectedProject.image}
-              alt={selectedProject.alt}
+              key={index}
+              src={detailImg.img}
+              alt={detailImg.alt}
             />
-          </div>
+          ))}
         </div>
-        <div>{selectedProject.description}</div>
+        <div className={styles.primaryImage}>
+          <img
+            src={selectedProject.image}
+            alt={selectedProject.alt}
+          />
+        </div>
       </div>
+      {/* </div> */}
     </div>
   );
 }
