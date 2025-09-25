@@ -13,10 +13,9 @@ const jobs: Job[] = [
     dates: "August 2025 - Present",
     link: "https://github.com/autumn-ragland/sewing-blog",
     description: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "React and TypeScript based personal project to document sewing projects",
+      "Cloudflare R2 object storage for images",
+      "Netlify for hosting and continuous deployment",
     ],
   },
   {
@@ -25,8 +24,8 @@ const jobs: Job[] = [
     dates: "April 2025 - July 2025",
     link: "https://www.linkedin.com/company/crometrics",
     description: [
-      "Improve user engagement on various client sites leveraging Optimizely injected typescript.",
-      "Collaborated with in-house LLM to generate A/B test variants and troubleshoot AI-driven user experience improvements.",
+      "Improve user engagement on various client sites leveraging Optimizely injected typescript",
+      "Collaborated with in-house LLM to generate A/B test variants and troubleshoot AI-driven user experience improvements",
     ],
   },
 

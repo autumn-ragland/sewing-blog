@@ -114,6 +114,11 @@
         margin: 0;
         padding: 0;
       }
+
+      img:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
     }
 
     .projectInfo {

@@ -16,7 +16,7 @@ const projects: Project[] = [
     id: 1,
     title: "Dream Pants",
     description:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo",
+      "Version 03 of a hastily made self drafted pattern for the perfect pair of pants! This pair is made of the rayon lining from a duvet cover. The pants fit loose through the leg and high on the waist.",
     image:
       "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/dreamPants/front.png",
     detail: [
@@ -40,7 +40,7 @@ const projects: Project[] = [
     id: 2,
     title: "Watermelon Tank",
     description:
-      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "I was gifted this home fabric and I think it's a cotton blend. The self drafted tank came out a little short hence the vertical stipe detail at the bottom. I went with a contrasting bias tape for the neckline and armholes for a little more whimsy.",
     image:
       "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/watermelonTank/front.png",
     detail: [
@@ -64,7 +64,7 @@ const projects: Project[] = [
     id: 3,
     title: "Fitted Moss Top",
     description:
-      "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "This is probably my favorite top I've made to date. The fabric is a cotton/linen blend that was originally a curtain panel. The back darts give it a nice shape and this was the first time I tried this neckline.",
     image:
       "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/fittedMossTop/front.png",
     detail: [
@@ -88,7 +88,7 @@ const projects: Project[] = [
     id: 4,
     title: "Everyday Denim Top",
     description:
-      "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?",
+      "This denim top is almost a direct copy of the Shimmer Summer Top. I used a pair of jeans that don't quite fit and opted for a contrast bias tape. I was even able to make use of the frayed hem of the jeans.",
     image:
       "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/everydayDenimTop/front.png",
     detail: [
@@ -111,7 +111,7 @@ const projects: Project[] = [
     id: 5,
     title: "Summer Shimmer Top",
     description:
-      "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.",
+      "I was gifted this gorgeous leftover silk blend curtain panel and decided to make a version of the Fitted Moss Top. Instead of the square sleeves I opted for a diagonal cut and a tapered bodice which allowed me to forgo darts.",
     image:
       "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/summerShimmerTop/front.png",
     detail: [
@@ -135,7 +135,7 @@ const projects: Project[] = [
     id: 6,
     title: "Perfect Wallet",
     description:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "I lost my wallet and decided to simply make a new one the next day. I was gifted this leather fabric and handsewn the wallet to spare my sewing machine. The key chain is a fun addition that I added to make it easier to find in my bag.",
     image:
       "https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/perfectWallet/front.png",
     detail: [

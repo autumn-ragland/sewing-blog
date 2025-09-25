@@ -11,9 +11,9 @@ export default function Home() {
   const subtitle01 = "a record of secondhand fabric";
   const subtitle02 = "finding new life";
   const sidebarCopy01 =
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.";
+    "I taught myself how to sew in the summer of 2024 with youtube and a dream. Since then I've been self drafting clothes and accessories nearly every month. This page documents some of my favorite projects.";
   const sidebarCopy02 =
-    "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.";
+    "I decided to focus on using secondhand fabric once I got the hang of basic techniques. I love the challenge of working with what I have and producing unique pieces.";
   const navigate = useNavigate();
   const navigateToCoding = () => {
     navigate("/coding");
@@ -33,6 +33,7 @@ export default function Home() {
         <img
           src={project.image}
           alt={project.alt}
+          onClick={() => displayProjectPopup(project.id)}
         />
         <div className={styles.projectInfo}>
           <div className={styles.projectHeader}>
