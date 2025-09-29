@@ -1,37 +1,21 @@
-## Available Scripts
+# Autumn's Rag Land
 
-In the project directory, you can run:
+### Combining personal and professional in a React App
 
-### `npm start`
+I taught myself how to sew in the summer of 2024 with youtube and a dream. Since then I've been self drafting clothes and accessories nearly every month. This page documents some of my favorite projects. I decided to focus on using secondhand fabric once I got the hang of basic techniques. I love the challenge of working with what I have and producing unique pieces.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I decided to showcase a few of my favorite projects as a kind of portfolio of my professional work. And as an excuse to spend my free time coding.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## View the project
 
-### `npm test`
+The project is deployed using Netlify at [https://ragland.netlify.app/](https://ragland.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What to Expect
 
-### `npm run build`
+![alt text](https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/screenshots/web_home.png)
+<img src="https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/screenshots/mobile_home.png" width="250px">
+<img src="https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/screenshots/mobile_detail.png" width="250px">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Running locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
+`npm start` Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
