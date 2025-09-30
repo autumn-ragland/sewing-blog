@@ -33,12 +33,18 @@
     border-bottom-right-radius: 1em;
     padding-bottom: 10px;
     img {
-      max-width: 200px !important;
+      max-width: 400px !important;
     }
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    @media (min-width: 300px) and (max-width: 829px) {
+      img {
+        max-width: 200px !important;
+      }
+    }
 
     .secondaryImages {
       display: flex;
@@ -47,7 +53,13 @@
       gap: 10px;
       flex-direction: column;
       img {
-        max-width: 100px !important;
+        max-width: 150px !important;
+      }
+
+      @media (min-width: 300px) and (max-width: 829px) {
+        img {
+          max-width: 100px !important;
+        }
       }
     }
   }

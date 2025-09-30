@@ -24,7 +24,7 @@
     z-index: 1;
     position: fixed;
     left: 25%;
-    top: 25%;
+    top: 5%;
     width: 50vw;
     border: 1px solid var(--primary-bg-color);
     border-radius: 1em;
