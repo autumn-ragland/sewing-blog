@@ -1,0 +1,45 @@
+h1 {
+  font-family: var(--header);
+  font-size: 65px;
+  margin: 0;
+}
+
+h2 {
+  font-family: var(--subheader);
+}
+
+p {
+  font-family: var(--body);
+  margin: 0;
+}
+
+.toolsSkillsContainer {
+  height: 50vh;
+  padding: 1rem;
+  @media (max-width: 937px) {
+    height: 100vh;
+  }
+}
+.toolsSkills {
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 937px) {
+    display: block;
+  }
+}
+
+.contact {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
+
+.primaryBg {
+  background: var(--primary-color);
+  transition: background 0.5s ease;
+}
+
+.secondaryBg {
+  background: var(--secondary-color);
+  transition: background 0.5s ease;
+}

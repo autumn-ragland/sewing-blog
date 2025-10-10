@@ -1,0 +1,13 @@
+.container {
+  height: 75vh;
+  padding: 1rem;
+  @media (min-width: 937px) {
+    padding: 1rem 5rem;
+  }
+}
+
+.experiences {
+  display: flex;
+  overflow-x: scroll;
+  gap: 1rem;
+}

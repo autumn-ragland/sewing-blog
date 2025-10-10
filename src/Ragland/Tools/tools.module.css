@@ -1,0 +1,17 @@
+.container {
+  width: calc(50% - 10rem);
+  overflow-x: scroll;
+  @media (min-width: 937px) {
+    padding: 1rem 5rem;
+  }
+  @media (max-width: 937px) {
+    display: block;
+    width: 100%;
+  }
+}
+
+.items {
+  display: flex;
+  overflow-x: scroll;
+  gap: 1rem;
+}

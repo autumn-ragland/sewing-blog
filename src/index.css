@@ -1,13 +1,18 @@
 #root {
-  --primary-bg-color: #faedcd;
-  --secondary-bg-color: #e9edc9;
-  --accent-bg-color: #d4a373;
+  --primary-color: #fef8d2;
+  --secondary-color: #fec14c;
+  --accent-color: #fee356;
 
-  --primary-text-color: #3d2f22;
-  --accent-text-color: #fffdf1;
+  --header: "BBH Sans Hegarty", sans-serif;
+  --subheader: "DM Serif Text", serif;
+  --body: "Source Sans 3", sans-serif;
 
   img {
     max-width: 100%;
     height: auto;
   }
+}
+
+body {
+  background-color: #fef8d2;
 }

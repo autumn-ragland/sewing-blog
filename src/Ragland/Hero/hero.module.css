@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  height: 75vh;
+  padding: 1rem;
+
+  @media (min-width: 937px) {
+    padding: 1rem 5rem;
+  }
+}
+
+img {
+  height: 650px;
+  width: 650px;
+  border-radius: 50%;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: 937px) {
+    display: none;
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
