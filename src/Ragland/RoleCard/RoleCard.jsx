@@ -5,18 +5,10 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-// interface ExperienceProps {
-//   id: number;
-//   title: string;
-//   primaryDetail: string;
-//   link?: string;
-//   description: string[];
-//   primaryImg?: string;
-//   secondaryImg01?: string;
-//   secondaryImg02?: string;
-//   secondaryImg03?: string;
-// }
 export default function RoleCard({ experience }) {
+  const openLinkedIn = (link) => {
+    window.open(link, "LinkedIn");
+  };
   return (
     <div className={styles.container}>
       <Box sx={{ minWidth: 350 }}>
@@ -34,7 +26,13 @@ export default function RoleCard({ experience }) {
             <Typography variant="body2">{experience.description}</Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">LinkedIn</Button>
+            <Button
+              className={styles.buttonLink}
+              onClick={() => openLinkedIn(experience.link)}
+              size="small"
+            >
+              LinkedIn
+            </Button>
           </CardActions>
         </Card>
       </Box>
