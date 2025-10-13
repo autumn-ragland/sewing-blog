@@ -2,15 +2,36 @@ import styles from "./contact.module.css";
 import Box from "@mui/material/Box";
 import SpeedDial from "@mui/material/SpeedDial";
 import SpeedDialAction from "@mui/material/SpeedDialAction";
-import FileCopyIcon from "@mui/icons-material/FileCopyOutlined";
-import SaveIcon from "@mui/icons-material/Save";
-import PrintIcon from "@mui/icons-material/Print";
 import Info from "@mui/icons-material/Info";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+
+const openLinkedIn = () => {
+  window.open("https://www.linkedin.com/in/autumn-ragland/", "LinkedIn");
+};
+const openGithub = () => {
+  window.open("https://github.com/autumn-ragland/sewing-blog", "GitHub");
+};
 
 const actions = [
-  { icon: <FileCopyIcon sx={{ color: "black" }} />, name: "LinkedIn" },
-  { icon: <SaveIcon sx={{ color: "black" }} />, name: "Resume" },
-  { icon: <PrintIcon sx={{ color: "black" }} />, name: "This Site" },
+  {
+    icon: (
+      <LinkedInIcon
+        sx={{ color: "black" }}
+        onClick={() => openLinkedIn()}
+      />
+    ),
+    name: "LinkedIn",
+  },
+  {
+    icon: (
+      <GitHubIcon
+        sx={{ color: "black" }}
+        onClick={() => openGithub()}
+      />
+    ),
+    name: "This Site",
+  },
 ];
 
 export default function Contact() {
