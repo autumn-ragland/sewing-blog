@@ -1,10 +1,8 @@
-# Autumn's Rag Land
+# Personal Site
 
-### Combining personal and professional in a React App
+### Combining professional and personal
 
-I taught myself how to sew in the summer of 2024 with youtube and a dream. Since then I've been self drafting clothes and accessories nearly every month. This page documents some of my favorite projects. I decided to focus on using secondhand fabric once I got the hang of basic techniques. I love the challenge of working with what I have and producing unique pieces.
-
-I decided to showcase a few of my favorite projects as a kind of portfolio of my professional work. And as an excuse to spend my free time coding.
+I'm currently open to work and decided to whip up a personal site using React. This single page application focuses on small components and simple styling. I even threw in a simple scroll animation. This site is technically for recruiters but I really just made it for fun. You might have seen the original sewing focused version (Autumn's Ragland). If that's the case, don't worry! I plan to flesh out the much smaller sewing section in the weeks to come. Thanks for checking out the site!
 
 ## View the project
 
@@ -12,9 +10,9 @@ The project is deployed using Netlify at [https://ragland.netlify.app/](https://
 
 ## What to Expect
 
-![alt text](https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/screenshots/web_home.png)
-<img src="https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/screenshots/mobile_home.png" width="250px">
-<img src="https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/screenshots/mobile_detail.png" width="250px">
+![alt text](https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/screenshots/webv2.png)
+![alt text](https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/screenshots/webv2b.png)
+<img src="https://pub-8fed60eb719648a3a88503d913f2c1a4.r2.dev/screenshots/mobilev2.png" width="250px">
 
 ## Running locally
 
